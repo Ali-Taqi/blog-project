@@ -21,7 +21,7 @@ const CommentForm = ({
           className="w-full focus:outline-none bg-transparent"
           rows="5"
           placeholder="Leave your comment here..."
-          value={value}
+          value={value}   
           onChange={(e) => setValue(e.target.value)}
         />
         <div className="flex flex-col-reverse gap-y-2 items-center gap-x-2 pt-2 min-[420px]:flex-row">
