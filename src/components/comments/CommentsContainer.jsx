@@ -16,7 +16,7 @@ const CommentsContainer = ({ className, logginedUserId }) => {
       const commentData = await getCommentsData();
       setComments(commentData);
     })();
-  }, []);
+  }, []);    
 
   const addCommentHandler = (value, parent = null, replyOnUser = null) => {
     const newComment = {
