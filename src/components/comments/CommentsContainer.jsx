@@ -10,7 +10,7 @@ const CommentsContainer = ({ className, logginedUserId }) => {
   const [affectedComment, setAffectedComment] = useState(null);
 
   console.log(comments);
-
+     
   useEffect(() => {
     (async () => {
       const commentData = await getCommentsData();
