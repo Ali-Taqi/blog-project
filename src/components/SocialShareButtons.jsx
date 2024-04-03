@@ -4,7 +4,7 @@ import {
   FaTwitterSquare,
   FaRedditSquare,
   FaWhatsappSquare,
-} from "react-icons/fa";
+} from "react-icons/fa";   
 
 const SocialShareButtons = ({ url, title }) => {
   return (
